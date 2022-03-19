@@ -1,0 +1,45 @@
+@import url(@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;600&family=Roboto+Condensed:wght@300;400;700&family=Roboto:ital,wght@0,400;0,700;1,100;1,300;1,500;1,900&display=swap'););
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+/* navbar */
+.navbar a{
+    color: whitesmoke !important;
+    text-transform: uppercase;
+    padding: 0rem .5rem !important;
+    margin: 1rem 0rem;
+}
+.navbar, .container-fluid{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(215,36,14,0.9588877787443102) 0%, rgba(247,52,43,1) 49%, rgba(233,61,52,1) 51%, rgba(212,26,26,1) 100%, rgba(0,212,255,1) 100%);
+}
+/* banner */
+.container-fluid .container .row .text-white{
+    padding: 5rem 0rem;
+}
+.my-5 .row .col-6 .text-uppercase{
+    border-right: 3px solid red;
+    
+}
+
+/* cards */
+.mt-5 .row .col-6 .card{
+      margin: 0rem 1rem;
+      border-radius: 15px !important;
+      background-color: white;
+      border: 2px solid whitesmoke;
+}
+.mt-5 .row .col-6 .card .card-body{
+    box-shadow: 0px .3px white;
+    padding-top: 4rem;
+}
+.dash{
+    border: 2px solid red;
+    width: 60px;
+    height: 3px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
